@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4CAF50</color>
+    <color name="colorPrimaryDark">#7462FC</color>
+    <!--<color name="colorAccent">#4CAF50</color>-->
+    <color name="colorAccent">#7462FC</color>
+
+    <color name="colorBlue">#0A79DF</color>
+    <color name="colorOrangeLight">#ffa64d</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorSkyBlue">#4081ec</color>
+    <color name="colorGray">#3B3C3F</color>
+
+    <color name="color_spinner_bg">#443232</color>
+    <color name="colorStatusBlue">#7462FC</color>
+    <color name="colorAppPink">#FDA8F9</color>
+
+
+    <!--    InstaLogin-->
+    <!--    <color name="colorPrimary">#3F51B5</color>-->
+    <!--    <color name="colorPrimaryDark">#303F9F</color>-->
+    <!--    <color name="colorAccent">#FF4081</color>-->
+    <color name="dark_blue">#3023AE</color>
+    <color name="purple">#c86dd7</color>
+
+    <color name="login_form_details">#ccffffff</color>
+    <color name="login_form_details_light">#1affffff</color>
+    <color name="login_form_details_medium">#66ffffff</color>
+    <color name="colorBlack">#000000</color>
+
+</resources>

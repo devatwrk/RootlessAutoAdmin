@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_service_center"
+            android:icon="@drawable/ic_book_now"
+            android:title="@string/service_center" />
+
+        <item
+            android:id="@+id/nav_vehicle"
+            android:icon="@drawable/ic_vehicle"
+            android:title="@string/vehicle" />
+
+        <item
+            android:id="@+id/nav_mechanics"
+            android:icon="@drawable/ic_add_vehicle"
+            android:title="@string/mechanics" />
+        <item
+            android:id="@+id/nav_inventory"
+            android:icon="@drawable/ic_my_appointment"
+            android:title="@string/inventory" />
+
+        <item
+            android:id="@+id/nav_products"
+            android:icon="@drawable/ic_product"
+            android:title="@string/products" />
+
+        <item
+            android:id="@+id/nav_customers"
+            android:icon="@drawable/ic_customer"
+            android:title="@string/customers" />
+
+        <item
+            android:id="@+id/nav_bookings"
+            android:icon="@drawable/ic_booking"
+            android:title="@string/bookings" />
+        <item
+            android:id="@+id/nav_billings"
+            android:icon="@drawable/ic_billing"
+            android:title="@string/billings" />
+        <item
+            android:id="@+id/nav_messaging"
+            android:icon="@drawable/ic_message"
+            android:title="@string/messaging" />
+        <item
+            android:id="@+id/nav_users"
+            android:icon="@drawable/ic_user"
+            android:title="@string/users" />
+    </group>
+
+    <item android:title="@string/other">
+        <menu>
+
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_logout"
+                android:title="@string/logout" />
+
+        </menu>
+    </item>
+
+</menu>

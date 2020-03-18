@@ -1,0 +1,205 @@
+<resources>
+    <string name="app_name">Rootless Auto</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="home">Home</string>
+    <string name="sales_partner">Sales Partner</string>
+    <string name="happy_client">Happy Client</string>
+    <string name="game">Game</string>
+    <string name="rate">Rate</string>
+
+    <!--<string name="logout">Logout</string>-->
+
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <!--  <string name="other">Other</string>-->
+    <string name="change_password">Change password</string>
+    <string name="edit_profile">Profile</string>
+    <string name="enter_your_old_password">Enter your current password</string>
+    <string name="enter_your_new_password">Enter new password</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="menu_share">Share</string>
+    <string name="report_issue">Report Issue</string>
+    <string name="support">support</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="forget_password">Forget Password ?</string>
+    <string name="continue_with">Continue with</string>
+    <string name="login_with_phone">Login with phone</string>
+    <string name="sign_up_with_google">Sign up with google</string>
+    <string name="don_t_have_an_account">Don\'t have an account</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="signup">SignUp</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="already_have_an_account">Already have an account</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="by_clicking_reset_you_will_receive_an_email_to_reset_you_password">By clicking RESET, you will receive an email to reset your password</string>
+
+    <!--Rootless-->
+    <string name="dashboard">Dashboard</string>
+    <string name="book_now">Book Now</string>
+    <string name="vehicle">Vehicle</string>
+    <string name="add_vehicle">Add Vehicle</string>
+    <string name="my_appointment">My Appointment</string>
+    <string name="payment">Payment</string>
+    <string name="more_info">More Info</string>
+    <string name="logout">Logout</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="year">Year</string>
+    <string name="choose_car">Choose Car</string>
+    <string name="select_your_model">Select Your Model</string>
+    <string name="choose_engine">Choose Engine</string>
+    <string name="zip_code">Zip Code</string>
+    <string name="next">Next</string>
+    <string name="submit">Submit</string>
+    <string name="engine">Engine</string>
+    <string name="name">Name</string>
+    <string name="enter_your_name">Enter Your Name</string>
+    <string name="enter_your_number">Enter Your Number</string>
+    <string name="your_subject">Your Subject</string>
+
+    <string name="message">Message</string>
+    <string name="paytm">Paytm</string>
+    <string name="order_id">Order Id</string>
+    <string name="amount_to_pay">Amount To Pay</string>
+    <string name="username">username</string>
+    <string name="welcome">Welcome</string>
+    <string name="other">Other</string>
+    <string name="enter_your_engine_type">Enter your Engine Type</string>
+    <string name="enter_your_zip_post_code">Enter your Zip/Post Code</string>
+    <string name="enter_your_engine_model">Enter your Engine Model</string>
+    <string name="enter_subject">Enter Subject</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="pick_date">Pick Date</string>
+    <string name="input_message">Input Message</string>
+    <string name="rs_xxx">Rs. XXX</string>
+    <string name="orderid01xxxxx">ORDERID01XXXXX</string>
+
+    <string name="admin">ADMIN</string>
+    <string name="service_center">Service Center</string>
+    <string name="contact">Contact</string>
+    <string name="email">Email</string>
+    <string name="com">-----@---.com</string>
+    <string name="city">City</string>
+    <string name="address">Address</string>
+    <string name="xxxx">XXXX</string>
+    <string name="oops_no_data_found">Oops no data Found</string>
+    <string name="service_center_name">Service Center Name</string>
+    <string name="enter_name">Enter name</string>
+    <string name="select_country">Select Country</string>
+    <string name="state">State</string>
+
+    <string name="physical_address">Physical Address</string>
+    <string name="enter_address">Enter Address</string>
+    <string name="location">Location</string>
+    <string name="pick_your_location">Pick your location</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="enter_number">Enter Number</string>
+    <string name="alternate_number">Alternate Phone Number</string>
+    <string name="email_address">Email Address</string>
+    <string name="service_center_photo">Service Center Photo</string>
+
+    <string name="services_offered">Services Offered</string>
+    <string name="working_hours">Working Hours</string>
+    <string name="start_time">Start Time</string>
+    <string name="pick_a_time">Pick a Time</string>
+    <string name="end_time">End   Time</string>
+    <string name="time">Time</string>
+    <string name="pick_end_time">Pick End Time</string>
+    <string name="pick_start_time">Pick Start Time</string>
+    <string name="update">UPDATE</string>
+    <string name="vehicle_plate">Vehicle Plate</string>
+    <string name="plate_number">Plate Number</string>
+    <string name="vehicle_engine">Vehicle Engine</string>
+    <string name="engine_model">Engine Model</string>
+    <string name="vehicle_mileage">Vehicle Mileage</string>
+    <string name="enter_mileage">Enter Mileage</string>
+    <string name="vehicle_colour">Vehicle Colour</string>
+    <string name="enter_colour">Enter Colour</string>
+
+    <string name="vehicle_model">Vehicle Model</string>
+    <string name="mechanics">Mechanics</string>
+    <string name="inventory">Inventory</string>
+    <string name="products">Products</string>
+    <string name="customers">Customers</string>
+    <string name="bookings">Bookings</string>
+    <string name="billings">Billings</string>
+    <string name="messaging">Messaging</string>
+    <string name="product_name">Product Name</string>
+    <string name="man_hours">Man Hours</string>
+    <string name="hours">Hours</string>
+    <string name="_00_00_hrs">00:00 Hrs</string>
+    <string name="complexity">Complexity</string>
+    <string name="enter_complexity">Enter Complexity</string>
+    <string name="currency">Currency</string>
+    <string name="service_charge">Service Charge</string>
+    <string name="amount">₹2000</string>
+    <string name="description">Description</string>
+    <string name="type_description">Type Description</string>
+    <string name="dd_mm_yyyy">dd/mm/yyyy</string>
+    <string name="service_date">Service Date</string>
+    <string name="users">Users</string>
+    <string name="item_name">Item Name</string>
+    <string name="brand">Brand</string>
+    <string name="item_picture">Item Picture</string>
+    <string name="pick_profile_image">Pick Profile Image</string>
+    <string name="image">Image</string>
+    <string name="quantity">Quantity</string>
+    <string name="vendor">Vendor</string>
+    <string name="item_bar_code">Item Bar Code</string>
+    <string name="bar_code">Bar Code</string>
+    <string name="select_customer_name">Select Customer name</string>
+    <string name="product_required">Product Required</string>
+    <string name="booking_date">Booking Date</string>
+    <string name="pick_time_here">Pick Time Here</string>
+    <string name="booking_time">Booking Time</string>
+    <string name="service_type">Service Type</string>
+    <string name="assigned_service_center">Assigned Service Center</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="photo">Photo</string>
+    <string name="gps_location">GPS Location</string>
+    <string name="id_number">ID Number</string>
+    <string name="id_card_image">ID Card Image</string>
+    <string name="residence">Residence</string>
+    <string name="model">Model</string>
+    <string name="skills">Skills</string>
+    <string name="car_model">Car Model</string>
+    <string name="customer_name">Customer Name</string>
+    <string name="assigned_center">Assigned Center</string>
+    <string name="country">Country</string>
+    <string name="pick_id_image">Pick ID Image</string>
+    <string name="pick_image">Pick Image</string>
+    <string name="tyre">Tyre...</string>
+    <string name="input">Input...</string>
+    <string name="something_about_product">Something about product...</string>
+    <string name="mobile">Mobile</string>
+    <string name="_0000xxxxxx">0000XXXXXX</string>
+    <string name="h_no">H.no...</string>
+    <string name="_00_00">00:00</string>
+    <string name="example_gmail_com">example@gmail.com</string>
+    <string name="auto_center">Auto Center</string>
+    <string name="profile_photo">Profile Photo</string>
+    <string name="id_photo">ID Photo</string>
+    <string name="harry">Harry...</string>
+    <string name="styles">Styles...</string>
+    <string name="id01xx">ID01XX</string>
+    <string name="type">Type...</string>
+    <string name="number">Number...</string>
+    <string name="xxkmpl">XXKmpl</string>
+    <string name="black">Black...</string>
+    <string name="profile_image">Profile Image</string>
+    <string name="select_country_first">Select Country First</string>
+    <string name="select_state_first">Select State First</string>
+    <string name="latitude_longitude">Latitude, Longitude</string>
+
+
+</resources>

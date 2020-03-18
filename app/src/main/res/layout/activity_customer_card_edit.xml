@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_login_inst"
+    android:gravity="center"
+    android:paddingStart="24dp"
+    android:paddingTop="10dp"
+    android:paddingEnd="24dp"
+    android:paddingBottom="10dp"
+    tools:context=".CustomerCardEditActivity">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    >
+
+                    <LinearLayout
+                        android:id="@+id/profile_img_linear"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tv_profile_image"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-light"
+                            android:padding="8dp"
+                            android:text="@string/profile_image"
+                            android:textColor="@color/colorWhite"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:id="@+id/iv_profile_image_picker"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_margin="5dp"
+                            android:src="@drawable/placeholder"
+                            app:civ_border_color="@color/colorAccent"
+                            app:civ_border_width="1dp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/id_img_linear"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:layout_marginStart="8dp"
+                        android:orientation="vertical"
+                        android:layout_toEndOf="@id/profile_img_linear">
+
+                        <TextView
+                            android:id="@+id/tv_id_image"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-light"
+                            android:padding="8dp"
+                            android:text="@string/id_card_image"
+                            android:textColor="@color/colorWhite"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:id="@+id/iv_id_image_picker"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_margin="5dp"
+                            android:src="@drawable/placeholder"
+                            app:civ_border_color="@color/colorAccent"
+                            app:civ_border_width="1dp" />
+
+                    </LinearLayout>
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/tv_first_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="sans-serif-light"
+                    android:padding="8dp"
+                    android:text="@string/first_name"
+                    android:textColor="@color/login_form_details"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/et_first_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_et_inst"
+                    android:hint="@string/harry"
+                    android:inputType="textPersonName"
+                    android:padding="10dp"
+                    android:textColor="@color/login_form_details"
+                    android:textColorHint="@color/login_form_details" />
+
+                <TextView
+                    android:id="@+id/tv_last_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="sans-serif-light"
+                    android:padding="8dp"
+                    android:text="@string/last_name"
+                    android:textColor="@color/login_form_details"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/et_last_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_et_inst"
+                    android:hint="@string/styles"
+                    android:inputType="textPersonName"
+                    android:padding="10dp"
+                    android:textColor="@color/login_form_details"
+                    android:textColorHint="@color/login_form_details" />
+
+                <TextView
+                    android:id="@+id/tv_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:fontFamily="sans-serif-light"
+                    android:padding="8dp"
+                    android:text="@string/email"
+                    android:textColor="@color/login_form_details"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/et_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_et_inst"
+                    android:hint="@string/example_gmail_com"
+                    android:inputType="textEmailAddress"
+                    android:padding="10dp"
+                    android:textColor="@color/login_form_details"
+                    android:textColorHint="@color/login_form_details" />
+
+                <TextView
+                    android:id="@+id/tv_select_country"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:fontFamily="sans-serif-light"
+                    android:padding="8dp"
+                    android:text="@string/select_country"
+                    android:textColor="@color/login_form_details"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <Spinner
+                    android:id="@+id/select_country_spinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_et_inst"
+                    android:padding="10dp" />
+
+                <TextView
+                    android:id="@+id/tv_state"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:fontFamily="sans-serif-light"
+                    android:padding="8dp"
+                    android:text="@string/state"
+                    android:textColor="@color/login_form_details"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <Spinner
+                    android:id="@+id/select_state_spinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:background="@drawable/bg_et_inst"
+                    android:padding="10dp" />
+
+                <TextView
+                    android:id="@+id/tv_state_default"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_et_inst"
+                    android:text="@string/select_country_first"
+                    android:textColor="@color/colorBlack"
+                    android:padding="12dp"
+                    android:textColorHint="@color/login_form_details"  />
+
+                <TextView
+                    android:id="@+id/tv_City"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:fontFamily="sans-serif-light"
+                    android:padding="8dp"
+                    android:text="@string/city"
+                    android:textColor="@color/login_form_details"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <Spinner
+                    android:id="@+id/select_city_spinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:background="@drawable/bg_et_inst"
+                    android:padding="10dp" />
+
+                <TextView
+                    android:id="@+id/tv_city_default"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_et_inst"
+                    android:text="@string/select_state_first"
+                    android:textColor="@color/colorBlack"
+                    android:padding="12dp"
+                    android:textColorHint="@color/login_form_details"  />
+
+                <TextView
+                    android:id="@+id/tv_number"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:fontFamily="sans-serif-light"
+                    android:padding="8dp"
+                    android:text="@string/phone_number"
+                    android:textColor="@color/login_form_details"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tv_country_code"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0"
+                        android:padding="10dp"
+                        android:textColor="@color/login_form_details" />
+
+                    <EditText
+                        android:id="@+id/et_number"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0"
+                        android:background="@drawable/bg_et_inst"
+                        android:hint="@string/_0000xxxxxx"
+                        android:inputType="phone"
+                        android:padding="10dp"
+                        android:textColor="@color/login_form_details"
+                        android:textColorHint="@color/login_form_details" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tv_alt_number"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:fontFamily="sans-serif-light"
+                    android:padding="8dp"
+                    android:text="@string/phone_number"
+                    android:textColor="@color/login_form_details"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tv_country_code2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0"
+                        android:padding="10dp"
+                        android:textColor="@color/login_form_details" />
+
+                    <EditText
+                        android:id="@+id/et_alt_number"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0"
+                        android:background="@drawable/bg_et_inst"
+                        android:hint="@string/_0000xxxxxx"
+                        android:inputType="phone"
+                        android:padding="10dp"
+                        android:textColor="@color/login_form_details"
+                        android:textColorHint="@color/login_form_details" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tv_id_no"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:fontFamily="sans-serif-light"
+                    android:padding="8dp"
+                    android:text="@string/id_number"
+                    android:textColor="@color/login_form_details"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/et_id_no"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_et_inst"
+                    android:hint="@string/id01xx"
+                    android:inputType="text"
+                    android:padding="10dp"
+                    android:textColor="@color/login_form_details"
+                    android:textColorHint="@color/login_form_details" />
+
+                <TextView
+                    android:id="@+id/tv_physical_address"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:fontFamily="sans-serif-light"
+                    android:padding="8dp"
+                    android:text="@string/address"
+                    android:textColor="@color/login_form_details"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/et_physical_address"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_et_inst"
+                    android:hint="@string/h_no"
+                    android:inputType="text"
+                    android:padding="10dp"
+                    android:textColor="@color/login_form_details"
+                    android:textColorHint="@color/login_form_details" />
+
+                <TextView
+                    android:id="@+id/tv_location_pick"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:fontFamily="sans-serif-light"
+                    android:padding="8dp"
+                    android:text="@string/location"
+                    android:textColor="@color/login_form_details"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_gps_location_picker"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_et_inst"
+                    android:hint="@string/pick_your_location"
+                    android:padding="12dp"
+                    android:textColor="@color/login_form_details"
+                    android:textColorHint="@color/login_form_details" />
+
+                <TextView
+                    android:id="@+id/tv_vehicle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:fontFamily="sans-serif-light"
+                    android:padding="8dp"
+                    android:text="@string/vehicle"
+                    android:textColor="@color/login_form_details"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <Spinner
+                    android:id="@+id/select_vehicle_spinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_et_inst"
+                    android:padding="10dp" />
+
+                <Button
+                    android:id="@+id/btn_update"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:background="@drawable/bg_btn_inst"
+                    android:text="@string/submit"
+                    android:textAllCaps="false"
+                    android:textColor="@color/login_form_details_medium" />
+
+
+            </LinearLayout>
+
+        </ScrollView>
+    </RelativeLayout>
